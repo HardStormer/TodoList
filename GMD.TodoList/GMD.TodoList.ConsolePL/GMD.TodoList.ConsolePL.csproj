@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GMD.TodoList.Dependencies\GMD.TodoList.Dependencies.csproj" />
+    <ProjectReference Include="..\GMD.TodoList.Entities\GMD.TodoList.Entities.csproj" />
+    <ProjectReference Include="..\GMD.TodoList.StandartBLL\GMD.TodoList.StandartBLL.csproj" />
+  </ItemGroup>
+
+</Project>

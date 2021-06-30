@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GMD.TodoList.BLL.Interfaces\GMD.TodoList.BLL.Interfaces.csproj" />
+    <ProjectReference Include="..\GMD.TodoList.DAL.Interfaces\GMD.TodoList.DAL.Interfaces.csproj" />
+    <ProjectReference Include="..\GMD.TodoList.JsonDAL\GMD.TodoList.JsonDAL.csproj" />
+    <ProjectReference Include="..\GMD.TodoList.StandartBLL\GMD.TodoList.StandartBLL.csproj" />
+  </ItemGroup>
+
+</Project>
